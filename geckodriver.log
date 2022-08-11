@@ -1,0 +1,264 @@
+1658141633705	geckodriver	INFO	Listening on 127.0.0.1:52382
+1658141636742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilei0lOk0"
+1658141637071	Marionette	INFO	Marionette enabled
+1658141637075	Marionette	INFO	Listening on port 52438
+WebDriver BiDi listening on ws://localhost:52383
+Read port: 52438
+1658141637294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilei0lOk0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52383/devtools/browser/a6c77c07-171f-4303-9f63-96e6834a2f86
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Unable to find target with innerWindowId:4294967328"
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967336/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:552:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/targets/window-global.js :: watch :: line 1654"  data: no]
+Stack: watch@resource://devtools/server/actors/targets/window-global.js:1654:28
+_watchDocshells@resource://devtools/server/actors/targets/window-global.js:777:28
+initialize/<@resource://devtools/server/actors/targets/window-global.js:348:42
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1654, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/targets/window-global.js :: get window :: line 422"  data: no]
+Stack: get window@resource://devtools/server/actors/targets/window-global.js:422:5
+form@resource://devtools/server/actors/source.js:187:1
+onNewSourceEvent/<@resource://devtools/server/actors/thread.js:2047:24
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 422, column: 0
+console.error: ({})
+console.error: "Error while calling actor 'thread's method 'isAttached'" "JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment"
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 402))
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 1702: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 402: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/window-global.js, line 422: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1658165938441	Marionette	INFO	Stopped listening on port 52438
+istening on ws://localhost:54169
+Read port: 54196
+1658165780189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileX8PlWn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54169/devtools/browser/146cf135-9727-4dce-8bfd-5c09b6ecfe91
+1658165784524	Marionette	INFO	Stopped listening on port 54196
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658165818791	geckodriver	INFO	Listening on 127.0.0.1:54320
+1658165821833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54321" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileHyOFVl"
+1658165822136	Marionette	INFO	Marionette enabled
+1658165822141	Marionette	INFO	Listening on port 54333
+WebDriver BiDi listening on ws://localhost:54321
+Read port: 54333
+1658165822262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileHyOFVl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54321/devtools/browser/1aa9fad1-44be-4436-b3d3-159b151f38d4
+1658165824171	Marionette	INFO	Stopped listening on port 54333
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658165843481	geckodriver	INFO	Listening on 127.0.0.1:54390
+1658165846530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilew0jlFW"
+1658165846846	Marionette	INFO	Marionette enabled
+1658165846851	Marionette	INFO	Listening on port 54410
+WebDriver BiDi listening on ws://localhost:54391
+Read port: 54410
+1658165846978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilew0jlFW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54391/devtools/browser/3e7dd5bd-a6e3-47aa-9f8c-81d6556f1098
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658165924569	Marionette	INFO	Stopped listening on port 54410
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilen3EoFc"
+1658165897935	Marionette	INFO	Marionette enabled
+1658165897941	Marionette	INFO	Listening on port 54575
+WebDriver BiDi listening on ws://localhost:54561
+Read port: 54575
+1658165898063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilen3EoFc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54561/devtools/browser/8c4b4892-83cf-45ed-bdb7-be588dcc8649
+1658165908505	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1658165909238	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658165911674	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1658165942123	Marionette	INFO	Stopped listening on port 54575
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileJd3eho"
+1658165930767	Marionette	INFO	Marionette enabled
+1658165930771	Marionette	INFO	Listening on port 54768
+WebDriver BiDi listening on ws://localhost:54756
+Read port: 54768
+1658165930885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileJd3eho\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54756/devtools/browser/c7af422f-a93a-46fe-9c5f-38866d0c79b3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658165965608	geckodriver	INFO	Listening on 127.0.0.1:54931
+1658165968626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54932" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileITnhqs"
+1658165968935	Marionette	INFO	Marionette enabled
+1658165968940	Marionette	INFO	Listening on port 54944
+WebDriver BiDi listening on ws://localhost:54932
+Read port: 54944
+1658165969170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileITnhqs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54932/devtools/browser/8c0f37e0-2b25-462d-8bb1-3c0c5f0efe5d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658166018109	Marionette	INFO	Stopped listening on port 54944
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658166021048	geckodriver	INFO	Listening on 127.0.0.1:55108
+1658166024089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileVcDuXw"
+1658166024433	Marionette	INFO	Marionette enabled
+1658166024437	Marionette	INFO	Listening on port 55121
+WebDriver BiDi listening on ws://localhost:55109
+Read port: 55121
+1658166024651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileVcDuXw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55109/devtools/browser/37a45c70-1a7a-493e-bbfc-ea51c5548e7c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658166053056	Marionette	INFO	Stopped listening on port 55121
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658166054344	geckodriver	INFO	Listening on 127.0.0.1:55242
+1658166057368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileHCF5i2"
+1658166057675	Marionette	INFO	Marionette enabled
+1658166057680	Marionette	INFO	Listening on port 55256
+WebDriver BiDi listening on ws://localhost:55243
+Read port: 55256
+1658166057800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileHCF5i2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55243/devtools/browser/f4d94d3a-2b19-4184-8b39-d591ad9eb3c7
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658166074369	Marionette	INFO	Stopped listening on port 55256
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658166186734	geckodriver	INFO	Listening on 127.0.0.1:55616
+1658166189799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55617" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileSO0Agm"
+1658166190122	Marionette	INFO	Marionette enabled
+1658166190127	Marionette	INFO	Listening on port 55632
+WebDriver BiDi listening on ws://localhost:55617
+Read port: 55632
+1658166190405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileSO0Agm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55617/devtools/browser/3b7e5829-95ae-422d-a0b7-b1e98715eb60
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658166208288	geckodriver	INFO	Listening on 127.0.0.1:55744
+1658166211346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileug9osk"
+1658166211681	Marionette	INFO	Marionette enabled
+1658166211687	Marionette	INFO	Listening on port 55757
+WebDriver BiDi listening on ws://localhost:55745
+Read port: 55757
+1658166212094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileug9osk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55745/devtools/browser/1fe849f3-aba1-4c25-87ca-774fec50671c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.runescape.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658166237824	Marionette	INFO	Stopped listening on port 55757
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658167589647	geckodriver	INFO	Listening on 127.0.0.1:56935
+1658167592709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56936" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileM1ANqK"
+1658167593027	Marionette	INFO	Marionette enabled
+1658167593031	Marionette	INFO	Listening on port 56949
+WebDriver BiDi listening on ws://localhost:56936
+Read port: 56949
+1658167593149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileM1ANqK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56936/devtools/browser/269c2905-207b-4df9-a6c9-ad02d99422b8
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+676
+Read port: 57688
+1658168190123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofile6Zz7Q7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57676/devtools/browser/e8c92306-67ef-4259-8860-6d27532f6ad1
+console.warn: ({})
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1658168291535	Marionette	INFO	Stopped listening on port 57688
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658168294399	geckodriver	INFO	Listening on 127.0.0.1:57856
+1658168297480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileaT23Rm"
+1658168297897	Marionette	INFO	Marionette enabled
+1658168297901	Marionette	INFO	Listening on port 57871
+WebDriver BiDi listening on ws://localhost:57857
+Read port: 57871
+1658168298022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileaT23Rm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57857/devtools/browser/4835b569-9c40-4ce7-bc0e-d8712ce7361a
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1658241979969	Marionette	INFO	Stopped listening on port 57871
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658242003222	geckodriver	INFO	Listening on 127.0.0.1:59488
+1658242006303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileRsIPMO"
+1658242006745	Marionette	INFO	Marionette enabled
+1658242006749	Marionette	INFO	Listening on port 59502
+WebDriver BiDi listening on ws://localhost:59489
+Read port: 59502
+1658242006882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofileRsIPMO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59489/devtools/browser/0467df12-5ca6-4f1d-a3ee-1948f0e148b2
+1658242088467	Marionette	INFO	Stopped listening on port 59502
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658942378615	geckodriver	INFO	Listening on 127.0.0.1:61690
+1658942381675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilesHMD5n"
+1658942382711	Marionette	INFO	Marionette enabled
+1658942382719	Marionette	INFO	Listening on port 61706
+WebDriver BiDi listening on ws://localhost:61691
+Read port: 61706
+1658942382992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanc\\AppData\\Local\\Temp\\rust_mozprofilesHMD5n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61691/devtools/browser/145b4d00-0958-4818-95dd-5b478b01ce39
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1658958066148	Marionette	INFO	Stopped listening on port 61706
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
